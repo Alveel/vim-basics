@@ -44,11 +44,19 @@ This will insert the cursor at the position of the cursor.
 
 However, what you will most likely want 9/10 times is _append_ with `a`, which will insert the cursor _after_ the current position.
 
+You can also insert at the beginning of the line with `I`, or at the end of the line with `A`.
+
+Makes sense right?
+
+Insert mode also has some shortcuts. You will probably use `Ctrl+w` to delete the previous word most often.
+
+PS: Did you know `Ctrl+w` has the same effect in most terminals?
+
 ##### Replace
 
 With `r` you can replace the character under the cursor. Example `rG`
 
-With `R` you will go to replace mode (insert but overwriting existing text)
+With `R` you will enter replace mode (insert but overwriting existing text)
 
 #### Normal
 
@@ -130,6 +138,7 @@ And then execute commands on it:
 
 - `:s/foo/bar/g` will replace all occurrences of foo with bar _in the selection_
 - `>` to indent
+- `~` to switch case
 
 ## Copy & Paste
 
