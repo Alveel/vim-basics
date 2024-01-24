@@ -21,6 +21,10 @@
 
 ## Basics
 
+### Case matters
+
+When I write upper or lower case for a command, that exact case is meant.
+
 ### Exiting vim
 
 First press/spam Escape to go to normal mode!
@@ -69,7 +73,7 @@ This is where you _navigate_, search, make small changes/deletions.
 Visual mode has several sub-modes, which you can all enter from normal mode (Escape!)
 
 - `v` - Regular visual mode, to work similarly to how you would work in edit mode
-- `Shift+v` - Visual line mode, to work with entire lines
+- `V` - Visual line mode, to work with entire lines
 - `Ctrl+v` - Visual block mode, to work with, well, _blocks_ of text
 
 ## Navigation
@@ -88,6 +92,8 @@ Use `0` to go the start of a line, and `$` to go the end.
 Use `w` to jump to the next word. `W` to jump a word-with-punctuation.and_stuff
 
 Adversely, `b` and `B` to go back.
+
+Two commands I personally find really useful are `gg` to go to the top of the document, and `G` to go to the bottom!
 
 ### Repeat
 
@@ -128,7 +134,7 @@ In any of the visual modes, just browse around!
 
 Remember you can repeat commands!
 
-`shift+v`, `3k` to select the current line and the 3 lines above it
+`V`, `3k` to select the current line and the 3 lines above it
 
 You can also select from the cursor to a search result:
 
